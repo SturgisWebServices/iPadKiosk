@@ -72,7 +72,9 @@
             <h3>
                 <img src="img/ez_logo_medium.png" /></h3>
             <button type="button" ng-click="search()" class="btn btn-primary">
-                Do Stuff!</button>  <button type="button" class="btn btn-primary" ng-click="scanQR()">Scan QR</button>
+                Do Stuff!</button>
+            <button type="button" class="btn btn-primary" ng-click="scanQR()">
+                Scan QR</button>
             <table class="table table-striped" ng-show="results">
                 <thead class="blue">
                     <tr>
@@ -117,7 +119,9 @@
     <script src="js/angularApp.js"></script>
     <script src="js/angular-mobile.js"></script>
     <script src="js/mobile-nav.js"></script>
-
     <script src="barcodescanner.js"></script>
+    <script type="text/javascript">
+        app.initialize();
+    </script>
 </body>
 </html>
