@@ -10,7 +10,11 @@ angular.module('Kiosk', [])
     }
 
     $scope.scanQR = function () {
-        cordova.plugins.barcodeScanner.scan(
+            var scanner = cordova.require("cordova/plugin/BarcodeScanner");
+
+            alert(scanner);
+        alert("scan!");
+        scanner.scan(
             function (result) {
                 alert("We got a barcode\n" +
                     "Result: " + result.text + "\n" +
