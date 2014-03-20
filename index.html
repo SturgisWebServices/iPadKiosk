@@ -110,6 +110,12 @@
                     </tr>
                 </tbody>
             </table>
+            <div id="deviceready" class="blink">
+                <p class="event listening">
+                    Connecting to Device</p>
+                <p class="event received">
+                    Device is Ready</p>
+            </div>
         </div>
     </div>
     <!-- SCRIPTS -->
@@ -119,7 +125,7 @@
     <script src="js/angularApp.js"></script>
     <script src="js/angular-mobile.js"></script>
     <script src="js/mobile-nav.js"></script>
-    <script src="cordova.js"></script>
+    <script type="text/javascript" src="phonegap.js"></script>
     <script src="barcodescanner.js"></script>
     <script type="text/javascript">
         app.initialize();
