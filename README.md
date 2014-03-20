@@ -1,10 +1,4 @@
-# PhoneGap Build App Template
-
-_Copyright (c) 2012-2013 Daniele Veneroni. Released under MIT License._
-
-PhoneGap Build App Template is a template (a ready-to-use project) to create web app and it's formatted to be easly wrapped on a stand-alone application using PhoneGap Build to build app for iOS, Android and Windows Phone.
-
-You can easly replace or modify the resources of the project to create your own app.
+# Sturgis Web Services :: iPad Kiosk
 
 ## Project Structure:
 
