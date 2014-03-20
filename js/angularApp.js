@@ -13,7 +13,7 @@ angular.module('Kiosk', [])
         console.log("scanning");
         try {
             var scanner = cordova.require("cordova/plugin/BarcodeScanner");
-            console.log("Scanner: " + scanner); k
+            console.log("Scanner: " + scanner);
 
             scanner.scan(function (result) {
 
